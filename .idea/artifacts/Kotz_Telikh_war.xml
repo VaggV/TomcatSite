@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Kotz-Telikh:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Kotz-Telikh</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Kotz-Telikh-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Kotz-Telikh:war exploded" />
+    </root>
+  </artifact>
+</component>

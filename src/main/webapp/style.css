@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Poppins-Regular, serif;
+    background: white;
+}
+
+p {
+    font-family: Poppins-Regular, serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0;
+}
+
+header {
+    height: 65px;
+    background: #6a7dfe;
+    margin-left: 150px;
+}
+
+.btn{
+    color: white;
+    border: none;
+    font-weight: bold;
+    background: #1b1e21;
+    margin: 15px auto;
+    padding: 10px;
+    display: block;
+    border-radius: 10%;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+}
+
+.sideMenu {
+    width: 150px;
+    background: #4A57B1;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#btnContainer{
+    height: 300px;
+    position: absolute;
+    top: 25%;
+}
+
+.menuBtns{
+    width: 100%;
+    margin-top: 15px;
+    height: 80px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: #343D7D;
+}
+
+.menuBtns:hover{
+    cursor: pointer;
+    background: #5969D7;
+}
+
+#mainSection{
+    margin-left: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.buttons{
+    border: none;
+    background: black;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+}
+
+#specialties{
+    font-family: Poppins-Regular, serif;
+}
+
+
